@@ -1,22 +1,76 @@
 {
-  "EB01": "/cards/eb01-memorial-collection",
-  "OP06": "/cards/op06-wings-of-the-captain",
-  "OP05": "/cards/op05-awakening-of-the-new-era",
-  "OP04": "/cards/op04-kingdoms-of-intrigue",
-  "OP03": "/cards/op03-pillars-of-strength",
-  "OP02": "/cards/op02-paramount-war",
-  "OP01": "/cards/op01-romance-dawn",
-  "ST13": "/cards/st13-the-three-brothers",
-  "ST12": "/cards/st12-zoro-sanji",
-  "ST11": "/cards/st11-uta",
-  "ST10": "/cards/st10-the-three-captains",
-  "ST09": "/cards/st09-yamato",
-  "ST08": "/cards/st08-monkey-d-luffy",
-  "ST07": "/cards/st07-big-mom-pirates",
-  "ST06": "/cards/st06-absolute-justice",
-  "ST05": "/cards/st05-one-piece-film-edition",
-  "ST04": "/cards/st04-animal-kingdom-pirates",
-  "ST03": "/cards/st03-the-seven-warlords-of-the-sea",
-  "ST02": "/cards/st02-worst-generation",
-  "ST01": "/cards/st01-straw-hat-crew"
+  "EB01": {
+    "url": "/cards/eb01-memorial-collection",
+    "collectionName": "Memorial Collection JP"
+  },
+  "OP06": {
+    "url": "/cards/op06-wings-of-the-captain",
+    "collectionName": "Wings of the Captain JP"
+  },
+  "OP05": {
+    "url": "/cards/op05-awakening-of-the-new-era",
+    "collectionName": "Awakening of the New Era"
+  },
+  "OP04": {
+    "url": "/cards/op04-kingdoms-of-intrigue",
+    "collectionName": "Kingdoms of Intrigue"
+  },
+  "OP03": {
+    "url": "/cards/op03-pillars-of-strength",
+    "collectionName": "Pillars of Strength"
+  },
+  "OP02": {
+    "url": "/cards/op02-paramount-war",
+    "collectionName": "Paramount War"
+  },
+  "OP01": {
+    "url": "/cards/op01-romance-dawn",
+    "collectionName": "Romance Dawn"
+  },
+  "ST13": {
+    "url": "/cards/st13-the-three-brothers",
+    "collectionName": "Ultra Deck: The Three Brothers JP"
+  },
+  "ST12": {
+    "url": "/cards/st12-zoro-sanji",
+    "collectionName": "Zoro & Sanji JP"
+  },
+  "ST11": { "url": "/cards/st11-uta", "collectionName": "Uta" },
+  "ST10": {
+    "url": "/cards/st10-the-three-captains",
+    "collectionName": "Ultra Deck: The Three Captains"
+  },
+  "ST09": { "url": "/cards/st09-yamato", "collectionName": "Yamato" },
+  "ST08": {
+    "url": "/cards/st08-monkey-d-luffy",
+    "collectionName": "Monkey D. Luffy"
+  },
+  "ST07": {
+    "url": "/cards/st07-big-mom-pirates",
+    "collectionName": "Big Mom Pirates"
+  },
+  "ST06": {
+    "url": "/cards/st06-absolute-justice",
+    "collectionName": "Absolute Justice"
+  },
+  "ST05": {
+    "url": "/cards/st05-one-piece-film-edition",
+    "collectionName": "ONE PIECE FILM edition"
+  },
+  "ST04": {
+    "url": "/cards/st04-animal-kingdom-pirates",
+    "collectionName": "Animal Kingdom Pirates"
+  },
+  "ST03": {
+    "url": "/cards/st03-the-seven-warlords-of-the-sea",
+    "collectionName": "The Seven Warlords of the Sea"
+  },
+  "ST02": {
+    "url": "/cards/st02-worst-generation",
+    "collectionName": "Worst Generation"
+  },
+  "ST01": {
+    "url": "/cards/st01-straw-hat-crew",
+    "collectionName": "Straw Hat Crew"
+  }
 }
