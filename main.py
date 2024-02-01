@@ -15,7 +15,7 @@ def main():
 
     writeFiles(collection["collectionName"], collectionCards)
   
-
+  print("Finished Scraping!!")
 
 
 
@@ -58,6 +58,7 @@ def getCards(collectionUrl):
   return collectionCards
 
 def getCardList(collectionUrl): 
+  print("Getting card List " ,collectionUrl)
   page = requests.get(PRIMARY_URL+collectionUrl)  #get page from url
   soup = BeautifulSoup(page.content, "html.parser") #tell BeautifulSoup the kind of webpage it is
 
@@ -72,7 +73,7 @@ def getCardList(collectionUrl):
   return cardLinks
     
 def getCardDetails(cardUrl):
-  page = requests.get(PRIMARY_URL+cardUrl)  #get page from url
+  page = requests.get(PRIMARY_URL+cardUrl, timeout=300)  #get page from url
   soup = BeautifulSoup(page.content, "html.parser") #tell BeautifulSoup the kind of webpage it is
 
   cardName = soup.find("span", class_="card-text-name").text
