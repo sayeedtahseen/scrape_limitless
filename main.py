@@ -84,14 +84,15 @@ def getCardDetails(cardUrl):
   # print(cardLegality[1].text.strip())
   # print(cardId, cardName, cardCategory, sep=",")
 
+  # cardDetails = cardId + "," + cardName + ","  + cardCategory + ","  + cardLegality 
   cardDetails = [cardId, cardName , cardCategory, cardLegality]
   return cardDetails
 
 def writeFiles(collectionName, cardDetails):
   print("writing File")
-  with open(collectionName, "w") as csvfile:
+  with open(collectionName, "w", newline='') as csvfile:
     wr = csv.writer(csvfile)
-    wr.writerow(cardDetails)
+    wr.writerows(cardDetails)
   print("Finished writing " + collectionName)
 if __name__ == "__main__":
   main()
